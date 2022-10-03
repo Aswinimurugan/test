@@ -8,6 +8,6 @@ jobs:
     
     - name: Run script file
       run: |
-         chmod +x H:/sample/test.sh
-         ./H:/sample/test.sh
+         chmod +x ./test.sh
+         ./test.sh
       shell: bash

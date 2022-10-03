@@ -8,6 +8,5 @@ jobs:
     
     - name: Run script file
       run: |
-        chmod +x ./test.sh
         sh ./test.sh
       

@@ -8,5 +8,5 @@ jobs:
     
     - name: Run script file
       run: |
-        sh ./test.sh
+        sh ./testing.sh
       

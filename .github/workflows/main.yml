@@ -7,5 +7,7 @@ jobs:
     steps:
     
     - name: Run script file
-      run: sh ./test.sh
+      run: |
+        chmod +x ./test.sh
+        sh ./test.sh
       

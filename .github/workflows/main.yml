@@ -9,5 +9,6 @@ jobs:
     - name: Run script file
       run: |
         chmod +x "${GITHUB_WORKSPACE}/testing.sh"
-    - run:  bash ${GITHUB_WORKSPACE}/testing.sh
+    - run:  ./${GITHUB_WORKSPACE}/testing.sh
+      shell: bash
       

@@ -6,9 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Run script file
-      run: |
-        chmod +x "${GITHUB_WORKSPACE}/testing.sh"
-    - run: sh ./${GITHUB_WORKSPACE}/testing.sh
+    - name: Run build script
+      run: ./.github/sample.sh
       shell: bash
       

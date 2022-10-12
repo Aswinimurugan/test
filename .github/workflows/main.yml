@@ -7,6 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run build script
-      run: ./.github/sample.sh
+      run: git update-index --chmod=+x ./.github/sample.sh
       shell: bash
       

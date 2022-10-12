@@ -9,6 +9,6 @@ jobs:
     - name: Run build script
       run: |
         git update-index --chmod=+x ./.github/sample.sh
-        sh ./.github/sample.sh
+        sh ./.github/sample.sh sucess
       shell: bash
       

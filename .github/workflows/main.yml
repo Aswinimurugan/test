@@ -1,5 +1,8 @@
 name: create-map
-on: push
+on: 
+ workflow_dispatch:
+ release:
+    types: [created]
 
 jobs:
   run_tests:

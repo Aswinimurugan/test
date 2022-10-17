@@ -3,12 +3,12 @@ on: push
 
 jobs:
   run_tests:
-    runs-on: [self-hosted,windows]
+    runs-on: [linux]
     steps:
      
       - name: login deployment server
         run: |
             ssh
             
-        shell: cmd
+        shell: terminal
       

@@ -1,14 +1,11 @@
 name: create-map
-on: 
- workflow_dispatch:
- release:
-    types: [created]
+on: [push]
+ 
 
 jobs:
   run_tests:
     runs-on: windows
     steps:
-     
       - name: login deployment server
         run: |
             ssh

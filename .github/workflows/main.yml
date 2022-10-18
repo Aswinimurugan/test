@@ -6,12 +6,13 @@ on:
 
 jobs:
   run_tests:
-    runs-on: [linux]
+    runs-on: windows
     steps:
      
       - name: login deployment server
         run: |
             ssh
+        shell: cmd
             
         
       

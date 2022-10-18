@@ -13,5 +13,5 @@ jobs:
         run: |
             ssh
             
-        shell: terminal
+        
       
